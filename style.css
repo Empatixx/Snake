@@ -1,0 +1,24 @@
+body{
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: black;
+}
+button{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    justify-content: center;
+    align-items: center;
+    width: 120px;
+    height: 50px;
+    background-color: white;
+}
+button:hover{
+    background-color: rgba(243, 60, 38,200);
+    color: black;
+}
